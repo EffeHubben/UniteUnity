@@ -490,8 +490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'De volgende invoerwaarden zijn niet toegestaan en worden verwijderd: ;
-    '' - " \'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -673,7 +672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3950676152574896614, guid: d6dd0939d06874b4fa82710a2abdbbd0, type: 3}
+  m_Sprite: {fileID: -8321170433466421060, guid: 355bc510d45bc774c851ade620b365ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

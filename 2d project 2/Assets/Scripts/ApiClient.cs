@@ -118,7 +118,7 @@ public class ApiClient : MonoBehaviour
 
         string jsonData = JsonUtility.ToJson(loginDto);
 
-        var response = await PerformApiCall("avansict2199044.azurewebsites.net/account/login", "POST", jsonData);
+        var response = await PerformApiCall("https://avansict2199044.azurewebsites.net/account/login", "POST", jsonData);
         loginWarning.text = "Email of wachtwoord is onjuist.";
         bool responseSuccess = response.ToString().Contains("token");
         if (responseSuccess)
